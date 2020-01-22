@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Project_1</name>
+    </assembly>
+    <members>
+        <member name="T:Project_1.Arithmetic">
+            <summary>
+            The Arithmetic class
+            Contains all the basic arithmetic methods
+            </summary>
+            <remarks>
+            <para>This class has methods for Addition, Substraction, Multiplication and Divison.</para>
+            </remarks>
+            <list type="bullet">
+             <item>
+             <term>Add</term>
+             <description>Addition Operation</description>
+             </item>
+             <item>
+             <term>Subtract</term>
+             <description>Subtraction Operation</description>
+             </item>
+             <item>
+             <term>Multiply</term>
+             <description>Multiplication Operation</description>
+             </item>
+             <item>
+             <term>Divide</term>
+             <description>Division Operation</description>
+             </item>
+             </list>
+        </member>
+        <member name="M:Project_1.Arithmetic.Add(System.Int32,System.Int32)">
+             <summary>
+             Adds two numbers and returns the sum
+             </summary>
+             <param name="Number1">An intger type</param>
+             <param name="Number2">An intger type</param>
+            <returns>
+            <para>returns the sum of two numbers</para>
+            </returns>
+            <example>
+            <code>
+            int sum=Arithmetic.Add(9,10)
+            Console.WriteLine(sum);
+            </code>
+             </example>
+             <exception cref="T:System.OverflowException">Occurs when one of the number is more than the integer value</exception>
+        </member>
+        <member name="M:Project_1.Arithmetic.Substract(System.Int32,System.Int32)">
+             <summary>
+             Substracts two numbers and returns the difference
+             </summary>
+             <param name="Number1">An intger type</param>
+             <param name="Number2">An intger type</param>
+             <returns>
+             <para>returns of difference of two numbers</para>
+             </returns>
+            <example>
+            <code>
+            int Difference=Arithmetic.Substract(19,10)
+            Console.WriteLine(Difference);
+            </code>
+            </example>
+        </member>
+        <member name="M:Project_1.Arithmetic.Multiply(System.Int32,System.Int32)">
+             <summary>
+             Multiplies two numbers and returns the product
+             </summary>
+             <param name="Number1">An intger type</param>
+             <param name="Number2">An intger type</param>
+             <returns>
+             <para>returns the product of two numbers</para>
+             </returns>
+            <example>
+            <code>
+            int Product=Arithmetic.Multiply(9,10)
+            Console.WriteLine(Product);
+            </code>
+            </example>
+            <exception cref="T:System.OverflowException">Occurs when one of the number is more than the integer value</exception>
+        </member>
+        <member name="M:Project_1.Arithmetic.Divide(System.Int32,System.Int32)">
+             <summary>
+             Divides two numbers and returns the quotient
+             </summary>
+             <param name="Number1">An intger type</param>
+             <param name="Number2">An intger type</param>
+             <returns>
+             <para>returns the quotient of two numbers</para>
+             </returns>
+            <example>
+            <code>
+            int Quotient=Arithmetic.Divide(9,10)
+            Console.WriteLine(Quotient);
+            </code>
+            </example>
+            <exception cref="T:System.DivideByZeroException"> Occurs when a number is attemted to be divided by zero</exception>
+        </member>
+        <member name="T:Project_1.Program">
+            <summary>
+            This is the main class where all the methods are declared and implemented.
+            </summary>
+            <remarks>
+            This class can add and print the sum.
+            </remarks>
+        </member>
+    </members>
+</doc>
